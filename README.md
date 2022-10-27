@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile first
+# Portfolio
 
-> This is a microverse learning project emphasizing the importance of parsing a Figma design to create a UI, Flexbox to place elements in the page and build a personal portfolio site.
+> Hey,I am Anand. This is my portfolio of projects. Please have a look and give the feedback.
 
 
 ## Built With
