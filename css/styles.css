@@ -109,6 +109,8 @@
 .icon-container {
   display: flex;
   width: 327px;
+  list-style-type: none;
+  padding-left: 10px;
 }
 
 .icon-element {
