@@ -418,6 +418,251 @@ body {
 }
 
 .firsthalf-line {
-  /* margin-top: 10rem;; */
   margin-left: calc((100% - 327px)/2);
+}
+
+.language {
+  padding: 0;
+  margin-top: 6rem;
+}
+
+.langu-item {
+  margin-bottom: 2rem;
+}
+
+.lang-title1 {
+  padding: 8px 12px;
+  gap: 12px;
+  width: 225.46px;
+  height: 41.46px;
+  font-family: 'InaiMathi';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin: auto;
+  background-color: #1C1A19;;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.lang-js1 {
+  align-items: center;
+  padding: 12px 0px;
+  width: 114px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+  background-color: #1C1A19;;
+  border: 0;
+  margin-bottom: 0.5rem;
+}
+
+.lang-ruby1 {
+  align-items: center;
+  padding: 12px 0;
+  width: 70px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+  background-color: #1C1A19;;
+  border: 0;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.lang-html1 {
+  align-items: center;
+  padding: 12px 0px;
+  width: 70px;
+  height: 24px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center !important;
+  color: #FFFFFF;
+  margin: auto;
+  background-color: #1C1A19;;
+  border: 0;
+  margin-bottom: 0.5rem;
+}
+
+.lang-Css1 {
+  width: 55px;
+  height: 24px;
+  padding: 12px 0px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+  background-color: #1C1A19;;
+  border: 0;
+  margin-bottom: 1rem;
+}
+
+.frameworks {
+  padding: 0;
+}
+
+.frameworks-item {
+  width: 300px;
+  height: 24px;
+  align-items: center;
+  padding: 12px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+  background-color: #1C1A19;;
+  border: 0;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin: auto;
+}
+
+.frameworks-title {
+  width: 227px;
+  height: 41.46px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 1rem;
+}
+
+.frameworks-image {
+  margin-right: 1.5rem;
+}
+
+.frameworks-bs {
+  width: 90px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.frameworks-ror {
+  width: 130px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.frameworks-rs {
+  width: 70px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.frameworks-cb {
+  width: 100px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.frameworks-sl {
+  width: 90px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  padding: 0;
+}
+
+.skills-item {
+  width: 300px;
+  height: 24px;
+  align-items: center;
+  padding: 12px 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  margin: auto;
+  background-color: #1C1A19;;
+  border: 0;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin: auto;
+}
+
+.skills-image {
+  margin-right: 1rem;
+}
+
+.skills-title {
+  width: 149px;
+  height: 24px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  margin-bottom: 1rem;
+}
+
+.skills-ck {
+  width: 80px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.skills-gh {
+  width: 70px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.skills-cp {
+  width: 80px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.skills-gl {
+  width: 60px;
+  height: 24px;
+  margin-bottom: 1rem;
+}
+
+.skills-tm {
+  width: 80px;
+  height: 24px;
+  margin-bottom: 1rem;
 }
