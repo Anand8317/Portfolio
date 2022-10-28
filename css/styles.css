@@ -118,7 +118,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 0;
-  color: #1C1A19;
+  color: #1c1a19;
   margin: auto;
   margin-top: 3em;
   margin-bottom: 1rem;
@@ -128,7 +128,7 @@ body {
   width: 325px;
   height: 1px;
   align-items: center;
-  margin-left: 25px;
+  margin-left: calc((100% - 327px) / 2);
   margin-bottom: 5rem;
 }
 
@@ -145,7 +145,7 @@ body {
   height: 237px;
 }
 
-.project-name{
+.project-name {
   width: 327px;
   height: 36px;
   font-family: 'Crete Round', sans-serif;
@@ -154,12 +154,12 @@ body {
   font-size: 32px;
   line-height: 44px;
   display: flex;
-  color: #091E42;
+  color: #091e42;
   margin: 0;
   margin-top: 1rem;
 }
 
-.project-para{
+.project-para {
   width: 327px;
   height: 120px;
   font-family: 'Inter', sans-serif;
@@ -167,7 +167,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #091E42;
+  color: #091e42;
   margin-top: 1rem;
 }
 
@@ -178,11 +178,10 @@ body {
   list-style-type: none;
   margin-block: 0;
   padding-inline: 0;
-  padding: 0;
   width: 327px;
   height: 40px;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
 }
 
@@ -190,8 +189,8 @@ body {
   box-sizing: border-box;
   align-items: center;
   padding: 10px 12px;
-  background: #FFFFFF;
-  border: 1px solid #8993A4;
+  background: #fff;
+  border: 1px solid #8993a4;
 }
 
 .lang-css {
@@ -202,7 +201,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .lang-html {
@@ -213,10 +212,10 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
-.lang-bootstrap{
+.lang-bootstrap {
   width: 95px;
   height: 40px;
   font-family: 'Inter', sans-serif;
@@ -224,7 +223,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .lang-Ruby {
@@ -235,16 +234,27 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #091E42;
+  color: #091e42;
 }
 
 .project-button {
-  padding: 12px;
+  padding: 18px;
   gap: 10px;
   width: 124px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   margin-top: 1rem;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  border: 0;
 }
 
 .card-grid-container {
@@ -302,7 +312,7 @@ body {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 5.5rem;
   margin-bottom: 0;
 }
@@ -315,22 +325,21 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: #fff;
   margin-bottom: 0;
 }
 
-.card-lang-container{
+.card-lang-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   list-style-type: none;
   margin-block: 0;
   padding-inline: 0;
-  padding: 0;
   width: 295px;
   height: 40px;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 12px;
   margin-bottom: 0.5rem;
 }
@@ -350,7 +359,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
 }
 
@@ -362,7 +371,7 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
 }
 
@@ -374,23 +383,32 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   text-align: center;
 }
 
 .card-project-button {
   width: 327px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   margin-top: 1em;
   border: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }
 
 .aboutme {
   width: 100%;
   height: 1901px;
   margin: auto;
-  background: #1C1A19;
+  background: #1c1a19;
 }
 
 .firsthalf-container {
@@ -413,9 +431,9 @@ body {
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
-  color: #FF6B00;
+  color: #ff6b00;
   margin: 0;
-  margin-top: 7rem;;
+  margin-top: 7rem;
 }
 
 .firsthalf-para {
@@ -426,7 +444,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   margin: 0;
   margin-top: 1rem;
 }
@@ -435,7 +453,7 @@ body {
   gap: 10px;
   width: 161px;
   height: 48px;
-  background: #FF6B00;
+  background: #ff6b00;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -443,14 +461,14 @@ body {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   margin-bottom: 12rem;
   align-self: baseline;
-  margin-left: calc((100% - 327px)/2);
+  margin-left: calc((100% - 327px) / 2);
 }
 
 .firsthalf-line {
-  margin-left: calc((100% - 327px)/2);
+  margin-left: calc((100% - 327px) / 2);
 }
 
 .language {
@@ -474,16 +492,16 @@ body {
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #FFFFFF;
+  color: #fff;
   margin: auto;
-  background-color: #1C1A19;;
+  background-color: #1c1a19;
   border: 0;
   margin-bottom: 1rem;
 }
 
 .lang-js1 {
   align-items: center;
-  padding: 12px 0px;
+  padding: 12px 0;
   width: 114px;
   height: 24px;
   font-family: 'Inter', sans-serif;
@@ -492,11 +510,10 @@ body {
   font-size: 22px;
   line-height: 43px;
   display: flex;
-  align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin: auto;
-  background-color: #1C1A19;;
+  background-color: #1c1a19;
   border: 0;
   margin-bottom: 0.5rem;
 }
@@ -512,19 +529,17 @@ body {
   font-size: 22px;
   line-height: 43px;
   display: flex;
-  align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin: auto;
-  background-color: #1C1A19;;
+  background-color: #1c1a19;
   border: 0;
-  text-align: center;
   margin-bottom: 0.5rem;
 }
 
 .lang-html1 {
   align-items: center;
-  padding: 12px 0px;
+  padding: 12px 0;
   width: 70px;
   height: 24px;
   font-family: 'Inter', sans-serif;
@@ -533,11 +548,10 @@ body {
   font-size: 22px;
   line-height: 43px;
   display: flex;
-  align-items: center;
   text-align: center !important;
-  color: #FFFFFF;
+  color: #fff;
   margin: auto;
-  background-color: #1C1A19;;
+  background-color: #1c1a19;
   border: 0;
   margin-bottom: 0.5rem;
 }
@@ -545,7 +559,7 @@ body {
 .lang-Css1 {
   width: 60px;
   height: 24px;
-  padding: 12px 0px;
+  padding: 12px 0;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -554,9 +568,9 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin: auto;
-  background-color: #1C1A19;;
+  background-color: #1c1a19;
   border: 0;
   margin-bottom: 1rem;
 }
@@ -576,15 +590,12 @@ body {
   font-size: 22px;
   line-height: 43px;
   display: flex;
-  align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin: auto;
-  background-color: #1C1A19;;
+  background-color: #1c1a19;
   border: 0;
-  text-align: center;
   margin-bottom: 1rem;
-  margin: auto;
 }
 
 .frameworks-title {
@@ -645,15 +656,12 @@ body {
   font-size: 22px;
   line-height: 43px;
   display: flex;
-  align-items: center;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin: auto;
-  background-color: #1C1A19;;
+  background-color: #1c1a19;
   border: 0;
-  text-align: center;
   margin-bottom: 0.5rem;
-  margin: auto;
 }
 
 .skills-image {
@@ -697,4 +705,24 @@ body {
   width: 80px;
   height: 24px;
   margin-bottom: 1rem;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.buttons:hover {
+  background-color: #FFF5E1;
+  border: 1px solid #F55800;
+  color: #F55800;
+}
+
+.buttons:active {
+  background-color: #E05304;
+  color: #F4F1F0;
+}
+
+.buttons:disabled {
+  background-color: #F4F1F0;
+  color: #5B5957;
 }
