@@ -244,7 +244,7 @@ body {
   height: 48px;
   background: #ff6b00;
   margin-top: 1rem;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -253,7 +253,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   border: 0;
 }
 
@@ -393,7 +393,7 @@ body {
   background: #ff6b00;
   margin-top: 1em;
   border: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -401,7 +401,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .aboutme {
@@ -712,17 +712,17 @@ body {
 }
 
 .buttons:hover {
-  background-color: #FFF5E1;
-  border: 1px solid #F55800;
-  color: #F55800;
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
 }
 
 .buttons:active {
-  background-color: #E05304;
-  color: #F4F1F0;
+  background-color: #e05304;
+  color: #f4f1f0;
 }
 
 .buttons:disabled {
-  background-color: #F4F1F0;
-  color: #5B5957;
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
