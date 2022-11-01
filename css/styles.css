@@ -726,3 +726,34 @@ body {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+
+.contact-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 24px;
+  gap: 58px;
+  width: 375px;
+  height: 844px;
+  margin: 0 auto;
+}
+
+.cont-para {
+  width: 327px;
+  height: 216px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172B4D;
+  margin: 0 auto;
+}
+
+.form-fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
