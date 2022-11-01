@@ -739,6 +739,10 @@ body {
   margin: 0 auto;
 }
 
+.form {
+  width: 375px;
+}
+
 .cont-para {
   width: 327px;
   height: 216px;
@@ -756,4 +760,46 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  gap: 15px;
+  width: 100%;
+  border: none;
+}
+
+.form-text {
+  width: 100%;
+  height: 48px;
+  margin-left: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.form-msg {
+  height: 114px;
+}
+
+#form-submit {
+  width: 131px;
+  height: 40px;
+  background-color: #ff6b00;
+  margin: 0 auto;
+  border: none;
+}
+
+#form-submit:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+#form-submit:active {
+  background-color: #e05304;
+  color: #f4f1f0;
+}
+
+#form-submit:disabled {
+  background-color: #f4f1f0;
+  color: #5b5957;
 }
