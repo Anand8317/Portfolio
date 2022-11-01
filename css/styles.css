@@ -1,8 +1,11 @@
-body {
+body, html {
+  overflow-x: hidden;
+  max-width: 100%;
   margin: 0;
 }
 
 .header-container {
+  width: 327px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -10,6 +13,7 @@ body {
   background-color: #3c3a39;
   padding-left: 1rem;
   padding-right: 2rem;
+  margin: auto;
 }
 
 .header-item {
@@ -34,6 +38,7 @@ body {
 }
 
 .intro-section-container {
+  width: 375px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,6 +48,7 @@ body {
   background-image: url("../src/bg.png");
   background-repeat: no-repeat;
   background-position: right 111.63%;
+  margin: auto;
 }
 
 .intro-section-item {
@@ -103,8 +109,9 @@ body {
 }
 
 .recent-works {
-  width: 100%;
+  width: 375px;
   height: 3125px;
+  margin: auto;
 }
 
 .works {
@@ -405,7 +412,7 @@ body {
 }
 
 .aboutme {
-  width: 100%;
+  width: 375px;
   height: 1901px;
   margin: auto;
   background: #1c1a19;
@@ -783,7 +790,6 @@ body {
 .form-msg {
   height: 114px;
   background: #fbf8f7;
-  padding-left: 5px;
   width: 375px;
 }
 
