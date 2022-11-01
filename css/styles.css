@@ -803,3 +803,14 @@ body {
   background-color: #f4f1f0;
   color: #5b5957;
 }
+
+.form-icon-container {
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #888;
+  padding: 10px;
+}
+
+.form-icon-element {
+  background-color: #fff;
+}
