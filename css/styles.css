@@ -731,7 +731,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 120px 24px;
   width: 375px;
   height: 944px;
   padding: 0;
@@ -751,7 +750,7 @@ body {
   font-size: 32px;
   line-height: 44px;
   text-align: center;
-  color: #172B4D;
+  color: #172b4d;
   margin: 0 auto;
   margin-top: 5rem;
 }
@@ -771,7 +770,7 @@ body {
   width: 375px;
   height: 48px;
   margin-left: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -783,7 +782,7 @@ body {
 
 .form-msg {
   height: 114px;
-  background: #FBF8F7;
+  background: #fbf8f7;
   padding-left: 5px;
   width: 375px;
 }
@@ -803,7 +802,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   padding-left: 15px;
 }
 
