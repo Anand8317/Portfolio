@@ -21,6 +21,10 @@ html {
   width: 50%;
 }
 
+.header-item3 {
+  text-decoration: none;
+}
+
 #name {
   width: 130px;
   height: 24px;
