@@ -43,6 +43,13 @@
     padding-left: 90%;
   }
 
+  .header-item5,
+  .header-item6,
+  .header-item7,
+  .header-item8 {
+    display: none;
+  }
+
   .intro-section-container {
     width: 375px;
     display: flex;
@@ -482,6 +489,10 @@
 
   .firsthalf-line {
     margin-left: calc((100% - 327px) / 2);
+  }
+
+  .firsthalf-line1 {
+    display: none;
   }
 
   .language {
@@ -1428,7 +1439,6 @@
   .form-icon-container {
     display: flex;
     gap: 20px;
-    /* justify-self: center; */
     width: 25%;
     padding: 0;
     margin-bottom: 40px;
