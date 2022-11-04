@@ -862,9 +862,6 @@
   }
 }
 
-/* 
- */
-
 @media screen and (min-width: 768px) {
   .header-container {
     display: flex;
@@ -907,7 +904,7 @@
   .intro-section-container {
     width: 100%;
     height: 870px;
-    background: #1C1A19;
+    background: #1c1a19;
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
@@ -915,7 +912,6 @@
     background-repeat: no-repeat;
     background-size: 40% 100%;
     background-position: right;
-
   }
 
   .intro-content {
@@ -925,15 +921,13 @@
   .icon-container {
     width: 10%;
     list-style: none;
-    margin-bottom: 500px;
+    margin: auto 0;
     line-height: 50px;
     padding: 0;
-    margin: auto 0;
   }
 
   .icon-element {
-    /* margin-bottom: 500px; */
-    padding-left: calc((100% - 18px)/2);
+    padding-left: calc((100% - 18px) / 2);
   }
 
   #intro-text1 {
@@ -942,26 +936,26 @@
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    color: #F55800;
+    color: #f55800;
   }
 
   #intro-text2 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 44px;
     align-items: center;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   #intro-text3 {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #F4F5F7;
+    color: #f4f5f7;
   }
 
   .recent-works {
@@ -1005,16 +999,16 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .project-para {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 28px;
-    color: #091E42;
+    color: #091e42;
   }
 
   .lang-container {
@@ -1024,7 +1018,9 @@
     list-style-type: none;
     margin-block: 0;
     padding-inline: 0;
+
     /* width: 327px; */
+
     /* height: 60%; */
     align-items: center;
     padding: 0;
@@ -1126,7 +1122,7 @@
     background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url(../src/card-background.png);
   }
 
-   .card-project-title {
+  .card-project-title {
     font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -1224,21 +1220,21 @@
   }
 
   .firsthalf-title {
-    font-family: 'Crete Round';
+    font-family: 'Crete Round', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
     line-height: 82px;
-    color: #F55800;
+    color: #f55800;
   }
 
   .firsthalf-para {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
-    color: #F4F5F7;
+    color: #f4f5f7;
   }
 
   .firsthalf-button {
@@ -1286,7 +1282,7 @@
     font-size: 22px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .lang-title1 {
@@ -1308,7 +1304,7 @@
     font-size: 22px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .frameworks-title {
@@ -1330,7 +1326,7 @@
     font-size: 22px;
     display: flex;
     align-items: center;
-    color: #FFFFFF;
+    color: #fff;
   }
 
   .skills-title {
@@ -1393,13 +1389,14 @@
   .form-msg {
     height: 114px;
     background: #fbf8f7;
-    width: 100%px;
+    width: 100%;
   }
 
   #form-submit {
     width: 131px;
     height: 40px;
     background-color: #ff6b00;
+
     /* margin: auto; */
     border: none;
     font-family: 'Inter', sans-serif;
@@ -1441,7 +1438,7 @@
     gap: 20px;
     width: 25%;
     padding: 0;
-    margin-bottom: 40px;
     margin: auto;
+    margin-bottom: 40px;
   }
 }
