@@ -1469,4 +1469,24 @@ body {
     margin: auto;
     margin-bottom: 40px;
   }
+
+  .button {
+    transition-duration: 0.4s;
+  }
+
+  .buttons:hover {
+    background-color: #fff5e1;
+    border: 1px solid #f55800;
+    color: #f55800;
+  }
+
+  .buttons:active {
+    background-color: #e05304;
+    color: #f4f1f0;
+  }
+
+  .buttons:disabled {
+    background-color: #f4f1f0;
+    color: #5b5957;
+  }
 }
