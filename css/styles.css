@@ -963,6 +963,7 @@
     margin: auto;
     display: flex;
     flex-direction: column;
+    margin-top: 5rem;
   }
 
   .recent-work-content {
@@ -972,6 +973,7 @@
     grid-template-columns: 2fr 5fr;
     align-items: center;
     margin: auto;
+    margin-bottom: 3rem;
   }
 
   .works-line {
@@ -1018,10 +1020,6 @@
     list-style-type: none;
     margin-block: 0;
     padding-inline: 0;
-
-    /* width: 327px; */
-
-    /* height: 60%; */
     align-items: center;
     padding: 0;
     gap: 12px;
@@ -1107,6 +1105,7 @@
     row-gap: 10px;
     column-gap: 10px;
     margin: auto;
+    margin-bottom: 3rem;
   }
 
   .card-project-container {
@@ -1267,12 +1266,17 @@
   .l-f-s {
     display: flex;
     margin-top: 6rem;
+    margin-bottom: 3rem;
   }
 
   .language {
     width: 33.3%;
     list-style-type: none;
     line-height: 60px;
+  }
+
+  .lang-image {
+    margin-right: 10px;
   }
 
   .langu-item {
@@ -1297,6 +1301,10 @@
     line-height: 60px;
   }
 
+  .frameworks-image {
+    margin-right: 10px;
+  }
+
   .frameworks-item {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1317,6 +1325,10 @@
     width: 33.3%;
     list-style-type: none;
     line-height: 40px;
+  }
+
+  .skills-image {
+    margin-right: 10px;
   }
 
   .skills-item {
