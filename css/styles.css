@@ -996,6 +996,7 @@
 
   .project-image:hover {
     transform: scale(1.1);
+    transition: width 2s, height 2s, transform 2s;
   }
 
   .project-name {
@@ -1464,6 +1465,7 @@
     background-color: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 
   .buttons:active {
