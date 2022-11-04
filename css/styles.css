@@ -1010,6 +1010,11 @@ body {
     width: 95%;
   }
 
+  .project-image:hover {
+    transform: scale(1.1);
+    transition: width 2s, height 2s, transform 2s;
+  }
+
   .project-name {
     margin: 0;
     font-family: 'Crete Round', sans-serif;
@@ -1424,8 +1429,6 @@ body {
     width: 131px;
     height: 40px;
     background-color: #ff6b00;
-
-    /* margin: auto; */
     border: none;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -1478,6 +1481,7 @@ body {
     background-color: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
+    transition: background-color 2s;
   }
 
   .buttons:active {
