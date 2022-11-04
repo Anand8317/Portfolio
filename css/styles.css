@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 @media screen and (max-width: 480px) {
   body,
   html {
@@ -891,7 +895,7 @@
   .header-item6,
   .header-item7,
   .header-item8 {
-    width: 7%;
+    width: 5%;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -899,6 +903,14 @@
     line-height: 20px;
     color: #fff;
     text-decoration: none;
+  }
+
+  .header-item6 {
+    padding-left: 1.5%;
+  }
+
+  #email {
+    margin-left: 15px;
   }
 
   .intro-section-container {
@@ -916,18 +928,21 @@
 
   .intro-content {
     width: 35%;
+    margin-top: 8%;
   }
 
   .icon-container {
     width: 10%;
     list-style: none;
     margin: auto 0;
-    line-height: 50px;
+    line-height: 40px;
     padding: 0;
+    margin-right: 3%;
+    margin-top: 20%;
   }
 
   .icon-element {
-    padding-left: calc((100% - 18px) / 2);
+    padding-left: calc(100% / 2);
   }
 
   #intro-text1 {
@@ -937,6 +952,7 @@
     font-size: 72px;
     line-height: 82px;
     color: #f55800;
+    margin-bottom: 1rem;
   }
 
   #intro-text2 {
@@ -1013,7 +1029,7 @@
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 28px;
     color: #091e42;
   }
@@ -1465,7 +1481,6 @@
     background-color: #fff5e1;
     border: 1px solid #f55800;
     color: #f55800;
-    transition: width 2s, height 2s, background-color 2s, transform 2s;
   }
 
   .buttons:active {
