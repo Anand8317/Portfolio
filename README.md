@@ -17,6 +17,9 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 git clone https://github.com/Anand8317/setup-and-mobile-first.git
 
+### Live Preview
+https://anand8317.github.io/Portfolio/
+
 
 ## Authors
 
