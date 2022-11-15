@@ -18,9 +18,9 @@ closeme.addEventListener('click', () => {
   navMenu.classList.toggle('active');
 });
 
-Array.from(menuItem).forEach(function (element) {
+Array.from(menuItem).forEach((element) => {
   element.addEventListener('click', () => {
-    Array.from(headerItem).forEach(function (element) {
+    Array.from(headerItem).forEach((element) => {
       element.classList.toggle('active');
     });
     navMenu.classList.toggle('active');
