@@ -17,3 +17,12 @@ closeme.addEventListener('click', () => {
   });
   navMenu.classList.toggle('active');
 });
+
+Array.from(menuItem).forEach(function (element) {
+  element.addEventListener('click', () => {
+    Array.from(headerItem).forEach(function (element) {
+      element.classList.toggle('active');
+    });
+    navMenu.classList.toggle('active');
+  });
+});
