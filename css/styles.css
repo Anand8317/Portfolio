@@ -283,7 +283,6 @@ body {
 
   .card-grid-container {
     display: grid;
-    grid-template-columns: 1;
     grid-template-rows: repeat(6, 1fr);
   }
 
@@ -884,7 +883,6 @@ body {
   .menu-items {
     padding-left: 0;
     list-style-type: none;
-    text-align: 20%;
     line-height: 60px;
     margin: auto;
   }
@@ -1028,7 +1026,6 @@ body {
   .recent-work-content {
     width: 95%;
     display: inline-grid;
-    grid-template-rows: 1;
     grid-template-columns: 2fr 5fr;
     align-items: center;
     margin: auto;
@@ -1043,9 +1040,7 @@ body {
   .project-container {
     width: 95%;
     display: grid;
-    grid-template-rows: 1;
     grid-template-columns: 2fr 1fr;
-    align-items: top;
     margin: auto;
   }
 
@@ -1175,7 +1170,6 @@ body {
   .card-project-container {
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: flex-end;
     gap: 12px;
     width: 100%;
