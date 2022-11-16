@@ -12,11 +12,23 @@
 <body>
   <header class="header-container">
     <a href="" class="header-item header-item3"><h3 id="name">Anand Pathak</h3></a>
-    <nav href="" class="header-item header-item4"><img id="tab" src="src/tab.png" alt="tab"></nav>
+    <nav href="" class="header-item header-item4"><img class="header-item" id="tab" src="src/tab.png" alt="tab"></nav>
     <a href="" class="header-item header-item5">Portfolio</a>
     <a href="" class="header-item header-item6">About</a>
     <a href="" class="header-item header-item7">Contact</a>
     <a href="" class="header-item header-item8"><img id="email" src="src/email.png" alt="email"></a>
+
+    <div class="menu-bar">
+      <img src="src/closeme.png" class="closeme"/>
+      <ul class="menu-items">
+        <li><a href="#Portfolio" class="item_m">Portfolio</a></li>
+        <hr>
+        <li><a href="#About" class="item_m">About</a></li>
+        <hr>
+        <li><a href="#Contact" class="item_m">Contact</a></li>
+        <hr>
+      </ul>
+    </div>
   </header>
 
   <section class="intro-section-container">
@@ -35,7 +47,7 @@
     </ul>
   </section>
 
-  <section class="recent-works">
+  <section class="recent-works" id="Portfolio">
     <div class="recent-work-content">
       <h2 class="works">My Recent Works</h2>
       <img class="works-line" src="src/line.png" alt="line">
@@ -118,7 +130,7 @@
     </section>
   </section>
 
-  <section class="aboutme">
+  <section class="aboutme" id="About">
     <div class="aboutme-inside">
       <div class="firsthalf-container">
         <h2 class="firsthalf-item firsthalf-title">About me</h2>
@@ -155,7 +167,7 @@
     </div>
   </section>
 
-  <footer class="contact-us">
+  <footer class="contact-us" id="Contact">
     <h2 class="cont-para">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
     <form class="form" action="https://formspree.io/f/mnqroayv" method="post">
       <fieldset class="form-fieldset">
@@ -177,4 +189,7 @@
     </div>
   </footer>
 </body>
+
+<script src="js/index.js
+"></script>
 </html>
