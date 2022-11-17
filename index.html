@@ -172,11 +172,13 @@
     <form class="form" action="https://formspree.io/f/mnqroayv" method="post">
       <fieldset class="form-fieldset">
         <input type="text" name="Fullname" class="form-text" placeholder="Full name" maxlength="30" required/>
-        <input type="email" name="Email" class="form-text" placeholder="Email address" required/>
+        <input type="email" name="Email" class="form-text" id="form-email" placeholder="Email address" required/>
         <textarea name="Message" maxlength="500" class="form-text form-msg" required>Enter text here</textarea>
         <input type="submit" id="form-submit" name="submit" value="Get in touch"/>
       </fieldset>
+      <div class="error"></div>
     </form>
+    
     <div class="social-media-icons">
       <hr class="footer-line"/>
       <ul class="icon-container form-icon-container">
