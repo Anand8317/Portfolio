@@ -2,6 +2,98 @@ body {
   margin: 0;
 }
 
+.project-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  z-index: 10;
+  width: 78%;
+  background-color: #fff;
+  border: 1px solid #ebecf0;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  transition: 0.5s ease-in-out;
+}
+
+.project-popup.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.popup-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.popup-header > h2 {
+  font-family: 'Crete Round', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.popup-header > button {
+  background-color: #fff;
+  border: none;
+  margin-right: 20px;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.popup-lang {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 10px;
+}
+
+.popup-lang > li {
+  margin-right: 10px;
+  border: 1px solid #979493;
+  padding: 5px;
+}
+
+.popup-image {
+  width: calc(100% - 20px);
+  margin-left: 10px;
+}
+
+.popup-para {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-left: 10px;
+}
+
+.popup-buttonCont {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.popup-button {
+  text-decoration: none;
+  width: 40%;
+  padding: 10px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  background: #ff6b00;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @media screen and (max-width: 480px) {
   body,
   html {
@@ -1533,5 +1625,55 @@ body {
 
   .menu-bar {
     display: none;
+  }
+
+  .popup-header {
+    height: 40px;
+  }
+
+  .popup-lang {
+    margin-bottom: 30px;
+  }
+
+  .popup-body {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .popup-image {
+    width: 60%;
+    height: 300px;
+  }
+
+  .popup-subbody1 {
+    width: 40%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .popup-para {
+    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .popup-buttonCont {
+    justify-content: flex-start;
+  }
+
+  .button1 {
+    width: 30%;
+    margin-right: 10px;
+  }
+
+  .button2 {
+    width: 40%;
   }
 }
