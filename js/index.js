@@ -89,14 +89,14 @@ popupa1.className = 'button1 popup-button ';
 popupa1.innerHTML = 'See Live ';
 const popupa1img = document.createElement('img');
 popupa1img.className = 'popup-button-img';
-popupa1img.src = '../src/popup-but1.png';
+popupa1img.src = 'src/popup-but1.png';
 popupa1.appendChild(popupa1img);
 const popupa2 = document.createElement('a');
 popupa2.className = 'button2 popup-button';
 popupa2.innerHTML = 'See Source ';
 const popupa2img = document.createElement('img');
 popupa2img.className = 'popup-button-img';
-popupa2img.src = '../src/popup-but2.png';
+popupa2img.src = 'src/popup-but2.png';
 popupa2.appendChild(popupa2img);
 
 popupButtonCon1.appendChild(popupa1);
@@ -106,7 +106,6 @@ popupSubbody1.appendChild(popupButtonCon1);
 popupBody1.appendChild(popupImg1);
 popupBody1.appendChild(popupSubbody1);
 popupParent1.appendChild(popupBody1);
-//
 
 function popupFunc(evt) {
   const popupTitle = document.querySelector('.popup-title');
