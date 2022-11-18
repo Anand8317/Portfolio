@@ -144,13 +144,6 @@ const error = document.querySelector('.error');
 const text = document.querySelector('#form-in1');
 const mess = document.querySelector('.form-msg');
 
-if (typeof (localStorage) !== 'undefined') {
-  const data = JSON.parse(localStorage.getItem('data'));
-  text.value = data.name;
-  email.value = data.email;
-  mess.value = data.message;
-}
-
 form.addEventListener('submit', (e) => {
   const emailValue = email.value;
   let flag = 0;
@@ -171,3 +164,10 @@ form.addEventListener('submit', (e) => {
     localStorage.setItem('data', JSON.stringify(formData));
   }
 });
+
+if (typeof (localStorage) !== 'undefined') {
+  const data = JSON.parse(localStorage.getItem('data'));
+  text.value = data.name;
+  email.value = data.email;
+  mess.value = data.message;
+}
