@@ -145,7 +145,7 @@ const text = document.querySelector('#form-in1');
 const mess = document.querySelector('.form-msg');
 
 if (typeof (localStorage) !== 'undefined') {
-  let data = JSON.parse(localStorage.getItem('data'));
+  const data = JSON.parse(localStorage.getItem('data'));
   text.value = data.name;
   email.value = data.email;
   mess.value = data.message;
@@ -163,10 +163,10 @@ form.addEventListener('submit', (e) => {
   }
 
   if (flag === 0) {
-    let formData = {
+    const formData = {
       name: text.value,
       email: email.value,
-      message: mess.value
+      message: mess.value,
     };
     localStorage.setItem('data', JSON.stringify(formData));
   }
