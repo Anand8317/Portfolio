@@ -145,9 +145,10 @@ const text = document.querySelector('#form-in1');
 const mess = document.querySelector('.form-msg');
 
 if (typeof (localStorage) !== 'undefined') {
-  text.value = localStorage.getItem('Name');
-  email.value = localStorage.getItem('Email');
-  mess.value = localStorage.getItem('Message');
+  let data = JSON.parse(localStorage.getItem('data'));
+  text.value = data.name;
+  email.value = data.email;
+  mess.value = data.message;
 }
 
 form.addEventListener('submit', (e) => {
@@ -162,8 +163,11 @@ form.addEventListener('submit', (e) => {
   }
 
   if (flag === 0) {
-    localStorage.setItem('Name', text.value);
-    localStorage.setItem('Email', email.value);
-    localStorage.setItem('Message', mess.value);
+    let formData = {
+      name: text.value,
+      email: email.value,
+      message: mess.value
+    };
+    localStorage.setItem('data', JSON.stringify(formData));
   }
 });
