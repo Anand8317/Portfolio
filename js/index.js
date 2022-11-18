@@ -141,12 +141,33 @@ popupClose.addEventListener('click', () => {
 const form = document.querySelector('.form');
 const email = document.getElementById('form-email');
 const error = document.querySelector('.error');
+const text = document.querySelector('#form-in1');
+const mess = document.querySelector('.form-msg');
+
 form.addEventListener('submit', (e) => {
   const emailValue = email.value;
+  let flag = 0;
   for (let i = 0; i < emailValue.length; i += 1) {
     if (emailValue[i] !== emailValue[i].toLowerCase()) {
       e.preventDefault();
       error.innerText = 'Please enter email in lowercase';
+      flag = 1;
     }
   }
+
+  if (flag === 0) {
+    const formData = {
+      name: text.value,
+      email: email.value,
+      message: mess.value,
+    };
+    localStorage.setItem('data', JSON.stringify(formData));
+  }
 });
+
+if (typeof (localStorage) !== 'undefined') {
+  const data = JSON.parse(localStorage.getItem('data'));
+  text.value = data.name;
+  email.value = data.email;
+  mess.value = data.message;
+}
