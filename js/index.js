@@ -7,10 +7,10 @@ const popupOpen = document.getElementsByClassName('popup-open');
 const overlay = document.getElementById('overlay');
 const popup = document.querySelector('.project-popup');
 const projectDetails = [{
-  title: 'Project no 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', image: './src/popup-img.png', tech: ['html', 'Bootstrap', 'Ruby on rails'], links: ['https://github.com/Anand8317', 'https://github.com/Anand8317'],
+  title: 'ToDO List', description: 'Todo List is the project where user can keep track of tasks to be done. A minimalist app where user can add, edit and delete the tasks.', image: '../src/pi1.png', tech: ['html', 'Bootstrap', 'css'], links: ['https://anand8317.github.io/todo-list1/dist/', 'https://github.com/Anand8317/todo-list1'],
 },
 {
-  title: 'Project no 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', image: './src/popup-img.png', tech: ['html', 'Bootstrap', 'Ruby on rails'], links: ['https://github.com/Anand8317', 'https://github.com/Anand8317'],
+  title: 'Save Cauvery', description: 'Save Cauvery 2022 is the initiative to aware people about the climate change specially about water conservation.', image: '../src/pi2.png', tech: ['html', 'Bootstrap', 'css'], links: ['https://anand8317.github.io/Save-Cauvery/', 'https://github.com/Anand8317/Save-Cauvery'],
 },
 {
   title: 'Project no 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', image: './src/popup-img.png', tech: ['html', 'Bootstrap', 'Ruby on rails'], links: ['https://github.com/Anand8317', 'https://github.com/Anand8317'],
